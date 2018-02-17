@@ -90,7 +90,7 @@ new Vue({
         }
     },
 
-    beforeCreate: function beforeCreate() {
+    created: function beforeCreate() {
         var _this7 = this;
 
         fetch('amazing-species.json').then(function (response) {
