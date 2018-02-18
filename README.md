@@ -1,2 +1,7 @@
-# IUCN_Red_List_Visualization
-A proj4 visulizes the species facing a risk of extinction and their stories.
+# IUCN Red List Amazing Species
+
+I collected 175 species information from [IUCN Red List]() to display their categories in different levels, which was built with Vue2.0.
+
+Features
+
+- Two-way searching
