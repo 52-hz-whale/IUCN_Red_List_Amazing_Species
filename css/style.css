@@ -399,3 +399,13 @@ a:hover {
         font-style: italic;
     }
 }
+
+footer {
+    display: flex;
+    align-self: center;
+    min-height: 4em;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
