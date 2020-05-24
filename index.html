@@ -47,7 +47,7 @@
             <div class="specie__info">
                 <div :class="specie.status" @click="setFilter('status', specie.status)">{{ specie.status }}</div>
                 <img :src="'img/' + specie.id + '.jpg'" class="specie__image" @click="setFilter('group', specie.group)"/>
-                <h2 class="specie__name"><a :href="'http://apiv3.iucnredlist.org/api/v3/website/'+specie.name">{{ specie.name }}</a></h2>
+                <h2 class="specie__name"><a target="_blank" :href="'http://apiv3.iucnredlist.org/api/v3/website/'+specie.name">{{ specie.name }}</a></h2>
             </div>
         </li>
     </transition-group>
